@@ -3,178 +3,228 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Mojo Collaborative Consulting - Technology Consulting and Solutions</title>
+        <meta name="description" content="Mojo Collaborative - Expert DevOps, Cloud Architecture, AI/ML, and Technology Solutions Consulting" />
+        <meta name="author" content="Mojo Collaborative" />
+        <title>Mojo Collaborative - Technology Solutions & Consulting</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Font Awesome 6 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="74">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Mojo Collaborative</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">Welcome!</div>
-                <div class="masthead-heading text-uppercase">Technology Consulting and Solutions</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+
+        <!-- Hero Section -->
+        <header class="hero-section d-flex align-items-center">
+            <div class="container text-center">
+                <h1 class="display-4 fw-bold text-white mb-4">Scalable Infrastructure for Modern Applications</h1>
+                <p class="lead text-white mb-5">We provide expert DevOps, Cloud Architecture, AI / ML, and Technology Solutions Consulting to drive your business forward.</p>
+                <a class="btn btn-primary btn-lg js-scroll-trigger" href="#services">Our Services</a>
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
+
+        <!-- Services Section -->
+        <section class="py-5" id="services">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">---</h3>
+                <div class="text-center mb-5">
+                    <h2 class="section-heading">Our Services</h2>
+                    <p class="text-muted">Comprehensive technology solutions for modern businesses</p>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Consulting</h4>
-                        <p class="text-muted">Business analysis, application development, and data analysis. Provide decision makers with support and reporting in understanding workload,
-productivity and effectiveness of current processes. </p>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100 service-card">
+                            <div class="card-body text-center">
+                                <div class="service-icon mb-3">
+                                    <i class="fas fa-cogs fa-3x text-primary"></i>
+                                </div>
+                                <h4 class="card-title">DevOps & Automation</h4>
+                                <p class="card-text">We build and streamline CI/CD pipelines, automate infrastructure, and foster a culture of collaboration to accelerate your development lifecycle.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Systems Engineering / Cloud</h4>
-                        <p class="text-muted">Microsoft (MCSE), CompTIA (Security+, Network+), IBM certified. Server infrastructure, system lifecycle management / SDLC, and training/mentoring for end-users.</p>
+                    <div class="col">
+                        <div class="card h-100 service-card">
+                            <div class="card-body text-center">
+                                <div class="service-icon mb-3">
+                                    <i class="fas fa-cloud fa-3x text-primary"></i>
+                                </div>
+                                <h4 class="card-title">Cloud Architecture</h4>
+                                <p class="card-text">Designing and implementing robust, secure, and cost-effective cloud infrastructure on AWS, Azure, or GCP to meet your scaling needs.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Develop, improve, and maintain processes with a focus on security. Identify areas for improved efficiency to enhance results and productivity in environments with limited resources.</p>
+                    <div class="col">
+                        <div class="card h-100 service-card">
+                            <div class="card-body text-center">
+                                <div class="service-icon mb-3">
+                                    <i class="fas fa-network-wired fa-3x text-primary"></i>
+                                </div>
+                                <h4 class="card-title">Distributed Systems</h4>
+                                <p class="card-text">Expert guidance on architecting and managing complex distributed applications, ensuring high availability and resilience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 service-card">
+                            <div class="card-body text-center">
+                                <div class="service-icon mb-3">
+                                    <i class="fas fa-brain fa-3x text-primary"></i>
+                                </div>
+                                <h4 class="card-title">AI/ML Solutions</h4>
+                                <p class="card-text">Leveraging machine learning models and AI-driven automation to unlock new insights, enhance efficiency, and create intelligent applications.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid-->
 
-        <!-- About-->
-        <section class="page-section" id="about">
+        <!-- Portfolio Section -->
+        <section class="py-5 bg-light" id="portfolio">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Technology consulting, data analytics, systems engineering, and financial IT systems, and management consulting. Government contracting as well as private sector. </h3>
+                <div class="text-center mb-5">
+                    <h2 class="section-heading">Our Work</h2>
+                    <p class="text-muted">Recent projects and case studies</p>
                 </div>
-
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 portfolio-card">
+                            <div class="card-body">
+                                <div class="portfolio-image mb-3">
+                                    <div class="placeholder-image bg-primary d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-cloud fa-2x text-white"></i>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Cloud-Native Platform</h5>
+                                <p class="card-text">Designed and implemented a scalable cloud-native platform for a FinTech startup, reducing infrastructure costs by 40%.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 portfolio-card">
+                            <div class="card-body">
+                                <div class="portfolio-image mb-3">
+                                    <div class="placeholder-image bg-success d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-brain fa-2x text-white"></i>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">ML-Powered Recommendation Engine</h5>
+                                <p class="card-text">Built an intelligent recommendation system that increased user engagement by 35% for an e-commerce platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 portfolio-card">
+                            <div class="card-body">
+                                <div class="portfolio-image mb-3">
+                                    <div class="placeholder-image bg-info d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-cogs fa-2x text-white"></i>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">DevOps Transformation</h5>
+                                <p class="card-text">Implemented comprehensive DevOps practices for a healthcare company, reducing deployment time from days to hours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Clients-->
-
-        <!-- Contact-->
-        <section class="page-section" id="contact">
+        <!-- About Section -->
+        <section class="py-5" id="about">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">---</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="section-heading mb-4">Our Mission</h2>
+                        <p class="lead">We empower businesses through innovative technology solutions and robust infrastructure that scales with their growth.</p>
+                        <p>At Mojo Collaborative, we believe that technology should be an enabler, not a barrier. Our mission is to help organizations leverage cutting-edge technologies to achieve their business objectives while maintaining security, reliability, and cost-effectiveness.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="section-heading mb-4">Our Approach</h2>
+                        <p class="lead">We take a collaborative, results-driven approach to every project.</p>
+                        <p>Our methodology combines deep technical expertise with strategic business understanding. We work closely with our clients to understand their unique challenges and deliver tailored solutions that drive measurable results. From initial assessment to implementation and ongoing support, we're committed to your success.</p>
+                    </div>
                 </div>
-                <form action="http://formspree.io/mo@themathmagician.net" method="POST">
-
-                  <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                    <input class="form-control"  type="text" placeholder="Your Name *"  />
-                    <p></p>
-                        </div>
-                        <div class="form-group">
-                    <input  class="form-control" type="email" placeholder="Your Email *" name="_replyto">
-                    <p></p>
-                        </div>
-                    </div>
-
-                  <div class="col-md-6">
-                  <textarea class="form-control"  name="body" placeholder="Your Message *"></textarea>
-                  </div>
-
-                  </div>
-
-
-                  <div class="text-center">
-                    <input   type="submit" class="btn btn-primary btn-xl text-uppercase" value="Send Message">
-                  </div>
-
-                </form>
-
-
-<!--
-                <form id="contactForm" name="sentMessage" novalidate="novalidate" action="http://formspree.io/mo@themathmagician.net" method="POST">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone "   />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <div id="success"></div>
-                        <input type="submit" value="Send">
-                        <button class="btn btn-primary btn-xl text-uppercase"  type="submit">Send Message</button>
-                    </div>
-                </form>
--->
-
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left"></div>
-                    <div class="col-lg-4 my-3 my-lg-0">
 
-                    </div>
-                    <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!"></a><a href="#!"></a></div>
+        <!-- Contact Section -->
+        <section class="py-5 bg-dark text-white" id="contact">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <p class="text-muted">Ready to transform your technology infrastructure? Let's talk.</p>
                 </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form action="https://formspree.io/f/xanjlaeb" method="POST">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Full Name *" name="name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Company Email *" name="_replyto" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="5" placeholder="Your Message *" name="body" required></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-4 bg-dark text-white">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2024 Mojo Collaborative. All rights reserved.</p>
             </div>
         </footer>
-        <!-- Portfolio Modals--><!-- Modal 1-->
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
+        <!-- Bootstrap 5 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Custom JS -->
         <script src="js/scripts.js"></script>
     </body>
 </html>
